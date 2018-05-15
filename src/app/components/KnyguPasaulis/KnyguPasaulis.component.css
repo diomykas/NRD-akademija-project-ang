@@ -1,4 +1,6 @@
-body {
+/*Čia stylius yra įkeltas iš grayscale temos
+ https://startbootstrap.com/template-overviews/grayscale/ */
+ body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   position: relative;
   width: 100%;
@@ -69,6 +71,9 @@ a:focus, a:hover {
 #mainNav .navbar-brand {
   font-weight: 700;
 }
+.navbar-header {
+    font-size: 60px;
+}
 
 #mainNav a {
   color: white;
@@ -124,7 +129,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -186,16 +191,13 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("../img/wall.jpg");
+
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  display: inline-block;
 }
-
-
 
 #map {
   width: 100%;
